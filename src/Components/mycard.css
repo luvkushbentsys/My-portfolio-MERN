@@ -1,0 +1,55 @@
+.projectHead {
+  color: yellowgreen;
+  border-bottom: 2px solid yellowgreen;
+  width: 16rem;
+  font-size: 3rem;
+  display: flex;margin: auto;
+  padding: 4rem 0rem 2rem 0rem;
+  margin-bottom: 2rem;
+}
+
+.ProjectCont {
+  max-width: 1140px;
+  margin: auto;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 40px;
+ padding-bottom: 5rem;
+}
+.ProjectCard {
+  background-color: #1a1919;
+  padding: 1.2rem 1rem;
+}
+.ProjectCard:hover{
+  box-shadow: -3px 3px 15px whitesmoke;
+  transition: 0.3s;
+}
+.images1 {
+ height: 200px;
+ width: 350px;
+}
+.projectTitle{
+  font-size: 2rem;
+   color: yellowgreen;
+    padding: 1rem 0;
+}
+.proDetail p{
+padding-bottom: 1rem;
+font-size: 1.1rem;
+text-align: justify;
+}
+.proBTN{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.proBTN .btn{
+    padding: 0.5rem 1rem;
+}
+@media screen and (max-width:740px) {
+    .ProjectCont {
+        max-width: 90%;
+        margin: auto;
+       grid-template-columns: 1fr;
+      }
+}
